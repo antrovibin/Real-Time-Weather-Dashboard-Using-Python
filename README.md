@@ -18,3 +18,10 @@ weather-dashboard/
 ├── README.md              # Project documentation
 └── weatherdb_schema.sql   # PostgreSQL schema setup
 ```
+
+## Setup Instructions
+**1. Clone the Repository**
+```bash
+git clone https://github.com/your-username/weather-dashboard.git
+cd weather-dashboard
+```
