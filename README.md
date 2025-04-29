@@ -46,7 +46,7 @@ python app.py
 ```
 This starts a Flask server that simulates and inserts new weather data every 5 seconds.
 
-**5. Run the Streamlit Dashboard**
+**4. Run the Streamlit Dashboard**
 ```bash
 streamlit run dashboard.py
 ```
