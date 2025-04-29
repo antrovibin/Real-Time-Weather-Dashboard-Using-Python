@@ -15,7 +15,7 @@ def get_conn():
     return psycopg2.connect(
         host="localhost",
         database="weatherdb",
-        user="antropravin"
+        user="user"
     )
 
 conn = get_conn()
