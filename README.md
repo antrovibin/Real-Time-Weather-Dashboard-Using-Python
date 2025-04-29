@@ -1,31 +1,20 @@
 # Real-Time-Weather-Dashboard-Using-Python
-A sleek, real-time weather monitoring dashboard built with **Streamlit**, **PostgreSQL**, **Altair**, and **Plotly**. This dashboard simulates weather data ingestion and live-updates the UI with temperature gauges, trends, maps, and city-specific insights.
+A real-time weather monitoring dashboard built using Streamlit, Flask, Socket.IO, and PostgreSQL. It continuously streams weather data for major cities, stores it in a database, and visualizes it in a live-updating dashboard with insightful charts, alerts, and maps.
 
-![Output]([assets.png](https://github.com/antrovibin/Real-Time-Weather-Dashboard-Using-Python/blob/main/Output.png)) <!-- Optional demo image -->
+## Features
+- Real-time temperature and humidity simulation
+- Auto-refreshing dashboard when new data is available
+- Interactive visualizations using Altair and Plotly
+- Alerts for high temperature events
+- Geographic visualization of weather data on a map
+- City-wise breakdown with recent history and suggestions
 
----
-
-## 🚀 Features
-
-- 📡 **Real-time auto-refresh** when new weather data is detected
-- 🌍 **Map view** showing city locations
-- 📈 **Live-updating charts** for temperature and humidity trends
-- 🧭 **City-wise dashboards** with suggestions based on temperature
-- ⚠️ **High temperature alerts**
-- 🔄 Clean, responsive layout using Streamlit and Plotly gauges
-
----
-
-## 🧠 Tech Stack
-
-| Layer         | Tools / Frameworks                     |
-|---------------|----------------------------------------|
-| Frontend      | [Streamlit](https://streamlit.io)      |
-| Backend       | Python, [psycopg2](https://pypi.org/project/psycopg2/) |
-| Database      | [PostgreSQL](https://www.postgresql.org/) |
-| Visualization | Plotly, Altair                         |
-| Data Source   | Simulated weather data with timestamps |
-
----
-
-## 🗂️ Project Structure
+## Project Structure
+```bash
+weather-dashboard/
+├── app.py                 # Flask server generating and emitting weather data
+├── dashboard.py           # Streamlit dashboard consuming data from PostgreSQL
+├── requirements.txt       # Python dependencies
+├── README.md              # Project documentation
+└── weatherdb_schema.sql   # PostgreSQL schema setup
+```
