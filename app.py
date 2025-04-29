@@ -12,7 +12,7 @@ locations = ['New York', 'London', 'Tokyo', 'Mumbai']
 conn = psycopg2.connect(
     host="localhost",
     database="weatherdb",
-    user="antropravin",
+    user="user",
 )
 cur = conn.cursor()
 
