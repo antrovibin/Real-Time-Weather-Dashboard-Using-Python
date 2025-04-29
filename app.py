@@ -54,5 +54,5 @@ if __name__ == '__main__':
 
 
 # To run the app, go to the terminal and type: python3 app.py
-# drop the table if it exists:  psql -U antropravin -h localhost postgres
+# drop the table if it exists:  psql -U user -h localhost postgres
 # 
