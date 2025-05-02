@@ -14,7 +14,6 @@ A real-time weather monitoring dashboard built using Streamlit, Flask, Socket.IO
 weather-dashboard/
 ├── app.py                 # Flask server generating and emitting weather data
 ├── dashboard.py           # Streamlit dashboard consuming data from PostgreSQL
-├── requirements.txt       # Python dependencies
 ├── README.md              # Project documentation
 └── weatherdb_schema.sql   # PostgreSQL schema setup
 ```
